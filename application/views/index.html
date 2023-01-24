@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Selva House</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/bootstrap.min.css'?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/style.css'?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/jquery.fancybox.css' ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/owl.carousel.min.css' ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/owl.theme.default.min.css' ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/all.css' ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/aos.css' ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/animate.css'?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/media.css'?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/swiper.min.css'?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'style/fullpage.css'?>">
+	<script type="text/javascript" src="<?php echo base_url('javascript/jquery-3.3.1.min.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/popper.min.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/bootstrap.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/jquery.fancybox.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/owl.carousel.min.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/all.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/aos.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/rellax.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/parallax.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/jquery.stellar.min.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/swiper.min.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('javascript/fullpage.js') ?>"></script>
+	<link rel="icon" href="<?php echo base_url().'assets/interface/LogoSelvaHouse.png'?>">
+</head>
+
+<body>
+	<div class="w-100 navbar navbar-expand-lg navbar-dark bg-nav">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand-1 navbar-brand"><img class="logo" src="<?php echo base_url().'assets/interface/logoSelva.png'?>"> Selva
+				House</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar"
+				aria-expanded="false" aria-controls="collapseNavbar">
+				<i class="fa fa-bars text-mark"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="collapseNavbar">
+				<ul class="nav navbar-nav mx-auto" id="menu">
+					<li class="nav-item">
+						<a href="#" class="nav-link nav-1">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link nav-hide nav-1">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#showcase" class="nav-link nav-hide nav-1">Showcase</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link nav-hide nav-1 dropdown-toggle" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item drop1" href="<?= base_url('Dashboard/yasmeera')?>"> <img class = "logo"src="<?php echo base_url('assets/interface/logoYasmeera.png')?>" alt=""> Yasmeera</a>
+						<a class="dropdown-item drop1" href="<?= base_url('Dashboard/yasmeera')?>"><img class = "logo"src="<?php echo base_url('assets/interface/wanojatest.png')?>" alt=""> Wanoja</a>
+						<a class="dropdown-item drop1" href="<?= base_url('Dashboard/yasmeera')?>"> <img class = "logo" src="<?php echo base_url('assets/interface/logoLabella.png')?>" alt=""> Labella</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a data-toggle="modal"data-target ="#modalalamat" class="nav-link nav-hide nav-1">Contact us</a>
+					</li>
+					<li class="nav-item">
+						<a href="cart.html" class="nav-link nav-1" data-toggle="tooltip" title="Your Shopping Items!"
+							id="cart"><i class="fa fa-shopping-cart"></i> Cart </a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2 form-media" type="search" placeholder="Search"
+						aria-label="Search" data-toggle="tooltip" title="Search Here!">
+					<a href="search.html">
+						<button class="btn btn-outline-danger my-2 my-sm-0 btn-tip2" type="submit">Search</button>
+					</a>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="w-100 navbar navbar-expand-lg navbar-dark bg-nav2" id="navbar">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand-2 navbar-brand"><img class="logo" src="<?php echo base_url('assets/interface/logoSelva.png')?>"> Selva House</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar"
+				aria-expanded="false" aria-controls="collapseNavbar">
+				<i class="fa fa-bars text-mark"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="collapseNavbar">
+				<ul class="nav navbar-nav mx-auto" id="menu">
+					<li data-menuanchor="firstPage" class="nav-item">
+						<a href="#" class="nav-link nav-hide nav-2">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link nav-hide nav-2">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#showcase" class="nav-link nav-hide nav-2">Showcase</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link nav-hide nav-2 dropdown-toggle" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item drop1" href="<?= base_url('Dashboard/yasmeera')?>"> <img class = "logo"src="<?= base_url('assets/interface/logoYasmeera.png')?>" alt=""> Yasmeera</a>
+							<a class="dropdown-item drop1" href="<?= base_url('Dashboard/yasmeera')?>"><img class = "logo"src="<?= base_url('assets/interface/wanojatest.png')?>" alt=""> Wanoja</a>
+							<a class="dropdown-item drop1" href="<?= base_url('Dashboard/yasmeera')?>"> <img class = "logo" src="<?= base_url('assets/interface/logoLabella.png')?>" alt=""> Labella</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a data-toggle="modal"data-target ="#modalalamat" class="nav-link nav-hide nav-2">Contact us</a>
+					</li>
+					<li class="nav-item">
+						<a href="cart.html" class="nav-link nav-2" data-toggle="tooltip" title="Your Shopping Items!"
+							id="cart2"><i class="fa fa-shopping-cart tex-white"></i> Cart</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2 form-media" type="search" placeholder="Search"
+						aria-label="Search" data-toggle="tooltip" title="Search Here!">
+					<button class="btn btn-outline-danger my-2 my-sm-0 btn-dng" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" tabindex="-1" role="dialog" id="modalalamat" data-backdrop="static">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title"><b>Contact Us</b></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true"><i class="fa fa-times"></i></span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+							<div class="col-4">
+								<img class="text-center mt-1 ml-5"src="<?php echo base_url().'assets/interface/instagram_logo.png'?>" alt="" widht="30px"height="30px">
+									
+								</div>
+								<div class="col-8">
+									<a rows="5" class="form-custom w-100" href="instagram.com">@selvahouse</a>
+								</div>
+								<div class="col-4">
+								<img class="text-center mt-2 ml-5"src="<?php echo base_url().'assets/interface/whatsapp_logo.png'?>" alt="" widht="30px"height="30px">
+
+								</div>
+								<div class="col-8">
+									<a rows="5" class="form-custom w-100 mt-2"href="whatsapp.com">@selvahouse</a>
+								</div>
+								<div class="col-4">
+								<img class="text-center mt-2 ml-5"src="<?php echo base_url().'assets/interface/telegram_logo.png'?>" alt="" widht="30px"height="30px">
+
+								</div>
+								<div class="col-8">
+									<a rows="5" class="form-custom w-100 mt-2"href="telegram.com">@selvahouse</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger mx-auto d-block" data-dismiss="modal" aria-label="Close">Close</button>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div class="header" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-12">
+					<h1 class="text-center judul">Selva House</h1>
+					<h4 class="text-center sub-judul">Scroll Down To See Our Products</h4>
+					<i class="fa fa-angle-down mx-auto d-block mt-5 fa-2x sub-judul"></i>
+				</div>
+				<div class="col-lg-6 col-md-6">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container ">
+		<div class="row pt-5">
+			<div class="col-12">
+				<h3 class="text-center mt-5"><img src="<?= base_url('assets/interface/logoYasmeera.png')?>" alt="">YASMEERA</h3>
+			</div>
+		</div>
+		<div class="row pb-4">
+			<div class="card-columns mt-4 pt-3 mt-prod">
+				<div class="card">
+					<img src="<?= base_url('assets/interface/assets11.png')?>" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title judul-about text-center">Lorem Ipsum</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+						<button class="btn btn-danger mx-auto d-block" data-toggle="modal" data-target="#modal3"><i
+								class="fa fa-shopping-cart"></i> See More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			direction: 'vertical',
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			autoplay: {
+				delay: 3000,
+			},
+		});
+	</script>
+
+	<script type="text/javascript">
+		(function ($) {
+			$(document).ready(function () {
+
+				$("#navbar").hide();
+
+				$(function () {
+					$(window).scroll(function () {
+						// set distance user needs to scroll before we fadeIn navbar
+						if ($(this).scrollTop() > 600) {
+							$('#navbar').fadeIn();
+						} else {
+							$('#navbar').fadeOut();
+						}
+					});
+
+
+				});
+
+			});
+		}(jQuery));
+	</script>
+
+	<script type="text/javascript">
+		function scroll() {
+			var top = document.getElementById('contact');
+			var ypos = window.pageYOffset;
+			if (ypos > 3500) {
+				top.style.opacity = "1";
+			} else {
+				top.style.opacity = "0";
+			}
+		}
+
+		window.addEventListener("scroll", scroll);
+	</script>
+
+	<script type="text/javascript">
+		$('.owl-carousel').owlCarousel({
+			loop: true,
+			autoplay: 2000,
+			margin: 10,
+			nav: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 2
+				},
+				1000: {
+					items: 2
+				}
+			}
+		})
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+</body>
+
+</html>

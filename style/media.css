@@ -1,0 +1,118 @@
+@media (min-width: 320px) and (max-width: 767px){
+	.card-columns{
+		margin-top: 0px;
+	}
+	.bg-nav{
+		background: brown;
+	}
+	.navbar-brand-1{
+		color: white !important;
+	}
+	.nav-1{
+		color: white !important;
+	}
+	.nav-link:hover{
+		color: #e3ae8f !important;
+		transform: scale(1);
+	}
+	.navbar-brand:hover{
+		color: #e3ae8f !important;
+		transform: scale(1);
+	}
+	.btn-tip2{
+		color: white !important;
+		border: 1px solid white;
+		margin-left: 5px;
+	}
+	.btn-dng{
+		margin-left: 5px;
+	}
+	.form-media{
+		width: 74%;
+	}
+	.contact-u{
+		display: none !important;
+	}
+	.img-about{
+		margin: auto;
+		display: block;
+	}
+	.img-about2{
+		margin: auto;
+		display: block;
+	}
+	.card-columns{
+		margin-top:-170px !important;
+		z-index: 0 !important;
+	}
+	.card-text{
+		text-align: justify !important;
+	}
+	.card-img-top{
+		width: 75% !important;
+		margin: auto;
+		display: block;
+	}
+	.text-about{
+		font-size: 14pt !important;
+	}
+	.input-group{
+		float: left;
+	}
+	.mt-cart{
+		margin-top: 40px !important;
+	}
+	.p-cart{
+		padding-top: 30px;
+	}
+	.p-cart-con{
+		padding-top: 45px;
+	}
+	.mt-prod{
+		margin-top: 10px !important;
+	}
+	.text-search{
+		font-size: 15pt;
+	}
+	.mt-search{
+		margin-top: 60px !important;
+	}
+	.showcase{
+		height: 100% !important;
+	}
+	.contact{
+		height: 100% !important; 
+	}
+
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+        transform: rotateY(90deg);
+    }
+    #sidebar.active {
+        margin-left: 0;
+        transform: none;
+    }
+    #sidebarCollapse span:first-of-type,
+    #sidebarCollapse span:nth-of-type(2),
+    #sidebarCollapse span:last-of-type {
+        transform: none;
+        opacity: 1;
+        margin: 5px auto;
+    }
+    #sidebarCollapse.active span {
+        margin: 0 auto;
+    }
+    #sidebarCollapse.active span:first-of-type {
+        transform: rotate(45deg) translate(2px, 2px);
+    }
+    #sidebarCollapse.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+    #sidebarCollapse.active span:last-of-type {
+        transform: rotate(-45deg) translate(1px, -1px);
+    }
+
+}
